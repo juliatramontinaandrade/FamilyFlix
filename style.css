@@ -60,10 +60,6 @@ img{
 
 
 .categoria-videos img{
-    display: flex;
-    overflow-x: auto; /* permite rolagem horizontal automática quando o  conteúdo exceder a largura da tela */
-    gap: 10px; /* adiciona espaçamento entre os elementos*/
-    padding-bottom: 10px;
  width: 300px; /* ou outro valor que você preferir */
     height: 200px;
     object-fit: cover; /* Para garantir que a imagem preencha o espaço sem distorção */
