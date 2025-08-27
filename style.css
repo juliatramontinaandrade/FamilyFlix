@@ -56,15 +56,17 @@ img{
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 100px;
-    background-image: linear-gradient(#07bff78f, #0704cf) ;
 }
 
 
-.categoria-videos{
+.categoria-videos img{
     display: flex;
     overflow-x: auto; /* permite rolagem horizontal automática quando o  conteúdo exceder a largura da tela */
     gap: 10px; /* adiciona espaçamento entre os elementos*/
     padding-bottom: 10px;
+ width: 300px; /* ou outro valor que você preferir */
+    height: 200px;
+    object-fit: cover; /* Para garantir que a imagem preencha o espaço sem distorção */
 }
 
 
