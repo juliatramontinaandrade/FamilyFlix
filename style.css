@@ -53,6 +53,12 @@ h2 {
     margin-bottom: 100px;
 }
 
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 10px;
+}
 
 .categoria-videos img{
  width: 300px; /* ou outro valor que você preferir */
